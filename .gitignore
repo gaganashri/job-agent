@@ -1,0 +1,22 @@
+# Python / virtual env
+venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Data and personal files (don't push personal resume)
+data/resumes/
+data/*.pdf
+
+# Gradio / local UI artifacts
+.gradio/
+
+# mac/windows files
+.DS_Store
+Thumbs.db
+
+# Build/static
+/dist
+/build
