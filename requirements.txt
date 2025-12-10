@@ -1,0 +1,9 @@
+gradio
+openai
+python-dotenv
+sentence-transformers
+faiss-cpu
+pandas
+pdfminer.six
+requests
+numpy

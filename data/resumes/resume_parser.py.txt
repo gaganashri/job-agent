@@ -1,0 +1,20 @@
+from pdfminer.high_level import extract_text
+
+def pdf_to_text(path):
+    """
+    Converts a PDF resume into clean extracted text.
+    """
+    try:
+        text = extract_text(path)
+        if not text:
+            return "ERROR: No text extracted. Check if PDF is scanned."
+        text = " ".join(text.split())  # clean whitespace
+        return text
+    except Exception as e:
+        return f"ERROR reading PDF: {e}"
+
+# Test run
+if __name__ == "__main__":
+    print("Testing resume extraction...")
+    sample_path = "data/resumes/my_resume.pdf"
+    print(pdf_to_text(sample_path)[:1500])

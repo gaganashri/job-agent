@@ -1,0 +1,6 @@
+id,title,company,location,description,url
+1,AI Engineer,Google,Bangalore,"We are looking for an AI Engineer with experience in Python, ML, embeddings, LLMs and distributed systems.","https://careers.google.com/ai-engineer"
+2,Data Scientist,Microsoft,Bangalore,"The role requires strong skills in data analysis, ML models, SQL, Azure cloud, model evaluation and deployment.","https://careers.microsoft.com/data-scientist"
+3,Machine Learning Engineer,Amazon,Bangalore,"Work on ML pipelines, NLP models, vector embeddings, deep learning, and AWS services.","https://amazon.jobs/mle"
+4,Prompt Engineer,OpenAI,Remote,"Strong understanding of LLMs, prompt engineering, RAG, agent workflows, and reasoning abilities required.","https://openai.com/careers/prompt-engineer"
+5,AI Agent Developer,Infosys,Bangalore,"Looking for engineers experienced in LangChain, agent frameworks, automation scripts, and tool-using RAG applications.","https://infosys.com/ai-agent"
